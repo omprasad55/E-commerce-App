@@ -11,33 +11,33 @@ const BrandCollection = () => {
             {
                 id: 'H&M',
                 name: 'H&M ',
-                image: "src/brands/h&m.png",
+                image: assets.handm,
             },
             {
                 id: 'Adidas',
                 name: 'ADIDAS ',
-                image: "src/brands/adiddas.png",
+                image: assets.adiddas,
             },
             
             {
                 id: 'calvin-klein',
                 name: 'CALVIN KLEIN',
-                image: "src/brands/calvin.png",
+                image: assets.calvin,
             },
             {
                 id: 'lacoste',
                 name: 'LACOSTE ',
-                image: "src/brands/lacoste.png",
+                image: assets.lacoste,
             },
             {
                 id: 'gucci',
                 name: 'GUCCI ',
-                image: "src/brands/gucci.png",
+                image: assets.gucci,
             },
             {
                 id: 'nike',
                 name: 'NIKE ',
-                image: "src/brands/nike.png",
+                image: assets.nike,
             },
         ];
 

@@ -64,6 +64,12 @@ import starwars_collection from './starwars_collection.png'
 import anime_collection from './anime_collection.png'
 import netflix_collection from './netflix_collection.png'
 import F1_collection from './F1_collection.png'
+import handm from './h&m.png'
+import adiddas from './adiddas.png'
+import nike from './nike.png'
+import calvin from './calvin.png'
+import lacoste from './lacoste.png'
+import gucci from './gucci.png'
 import p_img53 from '../limited/1_5fc3e24e-ebf2-417c-bf64-0f9d8c4be38a_2048x2048.jpg'
 import p_img55 from '../limited/4_729a7583-162d-403d-b360-7327836581c6_2048x2048.jpg'
 import p_img56 from '../limited/8_d56bb6d0-7ee0-42c7-8781-3869b3582dab_2048x2048.jpg'
@@ -101,7 +107,7 @@ import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
-import {  } from 'framer-motion'
+import { } from 'framer-motion'
 
 
 export const assets = {
@@ -140,7 +146,13 @@ export const assets = {
     netflix_collection,
     F1_collection,
     password,
-    mail
+    mail, handm,
+    adiddas,
+    nike,
+    calvin,
+    lacoste,
+    gucci
+
 }
 
 export const limited = [
@@ -767,7 +779,7 @@ export const limited = [
         sizes: ["S", "M", "L", "XL"],
         date: 1716668445448,
         bestseller: false
-    }, 
+    },
 
 
 
@@ -791,110 +803,110 @@ export const limited = [
 
 
     {
-    _id: "8_d56bb6d0",
-    name: "Oversized Streetwear Hoodie",
-    description: "Premium oversized hoodie with a bold streetwear design and heavy fabric.",
-    price: 1899,
-    image: [p_img53],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: Date.now(),
-    bestseller: true,
-    limitedStocks: true
-  },
-  {
-    _id: "ninja_hoodie_01",
-    name: "Ninja Masked Zip Hoodie",
-    description: "High-quality ninja-style zip hoodie with a built-in mask design.",
-    price: 2199,
-    image: [p_img58],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["M", "L", "XL"],
-    date: Date.now(),
-    bestseller: true,
-    limitedStocks: true
-  },
-  {
-    _id: "graphic_hoodie_01",
-    name: "Marlboro Graphic Jacket",
-    description: "Limited-edition graphic hoodie made for modern street fashion.",
-    price: 1999,
-    image: [p_img56],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L"],
-    date: Date.now(),
-    bestseller: false,
-    limitedStocks: true
-  },
-  {
-    _id: "i99i9i2",
-    name: "Minimal Black jeans Women",
-    description: "Clean minimal hoodie with a sleek black finish and relaxed fit.",
-    price: 1799,
-    image: [p_img55],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["M", "L", "XL"],
-    date: Date.now(),
-    bestseller: false,
-    limitedStocks: true
-  },
-  {
-    _id: "har09168",
-    name: "Urban Relaxed Fit Red Dredss one-piece",
-    description: "Relaxed fit hoodie designed for everyday comfort and durability.",
-    price: 1699,
-    image: [p_img57],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: Date.now(),
-    bestseller: false,
-    limitedStocks: true
-  },
-  {
-    _id: "47f89846",
-    name: "Premium Heavyweight Ferrari jacket Mens",
-    description: "Heavyweight premium hoodie with a structured fit and warm lining.",
-    price: 2299,
-    image: [p_img59],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["M", "L", "XL"],
-    date: Date.now(),
-    bestseller: true,
-    limitedStocks: true
-  },
-  {
-    _id: "newproject15",
-    name: "Street Core Marlboro Jacket for Women",
-    description: "Street-core inspired hoodie with modern cuts and premium fabric.",
-    price: 1899,
-    image: [p_img60],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L"],
-    date: Date.now(),
-    bestseller: false,
-    limitedStocks: true
-  },
-  {
-    _id: "5fc3e24e",
-    name: "Essential Oversized T-Shirt men",
-    description: "Essential winter hoodie built for warmth and everyday wear.",
-    price: 1599,
-    image: [p_img61],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: Date.now(),
-    bestseller: false,
-    limitedStocks: true
-  },
-  
+        _id: "8_d56bb6d0",
+        name: "Oversized Streetwear Hoodie",
+        description: "Premium oversized hoodie with a bold streetwear design and heavy fabric.",
+        price: 1899,
+        image: [p_img53],
+        category: "Women",
+        subCategory: "Winterwear",
+        sizes: ["S", "M", "L", "XL"],
+        date: Date.now(),
+        bestseller: true,
+        limitedStocks: true
+    },
+    {
+        _id: "ninja_hoodie_01",
+        name: "Ninja Masked Zip Hoodie",
+        description: "High-quality ninja-style zip hoodie with a built-in mask design.",
+        price: 2199,
+        image: [p_img58],
+        category: "Men",
+        subCategory: "Winterwear",
+        sizes: ["M", "L", "XL"],
+        date: Date.now(),
+        bestseller: true,
+        limitedStocks: true
+    },
+    {
+        _id: "graphic_hoodie_01",
+        name: "Marlboro Graphic Jacket",
+        description: "Limited-edition graphic hoodie made for modern street fashion.",
+        price: 1999,
+        image: [p_img56],
+        category: "Men",
+        subCategory: "Winterwear",
+        sizes: ["S", "M", "L"],
+        date: Date.now(),
+        bestseller: false,
+        limitedStocks: true
+    },
+    {
+        _id: "i99i9i2",
+        name: "Minimal Black jeans Women",
+        description: "Clean minimal hoodie with a sleek black finish and relaxed fit.",
+        price: 1799,
+        image: [p_img55],
+        category: "Women",
+        subCategory: "Winterwear",
+        sizes: ["M", "L", "XL"],
+        date: Date.now(),
+        bestseller: false,
+        limitedStocks: true
+    },
+    {
+        _id: "har09168",
+        name: "Urban Relaxed Fit Red Dredss one-piece",
+        description: "Relaxed fit hoodie designed for everyday comfort and durability.",
+        price: 1699,
+        image: [p_img57],
+        category: "Women",
+        subCategory: "Winterwear",
+        sizes: ["S", "M", "L", "XL"],
+        date: Date.now(),
+        bestseller: false,
+        limitedStocks: true
+    },
+    {
+        _id: "47f89846",
+        name: "Premium Heavyweight Ferrari jacket Mens",
+        description: "Heavyweight premium hoodie with a structured fit and warm lining.",
+        price: 2299,
+        image: [p_img59],
+        category: "Men",
+        subCategory: "Winterwear",
+        sizes: ["M", "L", "XL"],
+        date: Date.now(),
+        bestseller: true,
+        limitedStocks: true
+    },
+    {
+        _id: "newproject15",
+        name: "Street Core Marlboro Jacket for Women",
+        description: "Street-core inspired hoodie with modern cuts and premium fabric.",
+        price: 1899,
+        image: [p_img60],
+        category: "Women",
+        subCategory: "Winterwear",
+        sizes: ["S", "M", "L"],
+        date: Date.now(),
+        bestseller: false,
+        limitedStocks: true
+    },
+    {
+        _id: "5fc3e24e",
+        name: "Essential Oversized T-Shirt men",
+        description: "Essential winter hoodie built for warmth and everyday wear.",
+        price: 1599,
+        image: [p_img61],
+        category: "Men",
+        subCategory: "Topwear",
+        sizes: ["M", "L", "XL"],
+        date: Date.now(),
+        bestseller: false,
+        limitedStocks: true
+    },
+
 
 
 
