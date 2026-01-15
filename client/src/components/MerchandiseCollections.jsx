@@ -10,7 +10,7 @@ const MerchandiseCollections = () => {
     const merchandiseCollections = [
         {
             id: 'marvel',
-            name: 'MARVEL UNIVERSE',
+            name: 'MARVEL',
             image: assets.marvel_collection,
         },
         {
