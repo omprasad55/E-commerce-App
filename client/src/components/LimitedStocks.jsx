@@ -34,7 +34,7 @@ const LimitedStocks = () => {
             </div>
 
             {/* ===== CAROUSEL ===== */}
-            <div className="m-6 relative mt-16 px-4 group">
+            <div className=" relative mt-5 group">
                 {/* PREV */}
                 <button
                     onClick={() => slide("prev")}
