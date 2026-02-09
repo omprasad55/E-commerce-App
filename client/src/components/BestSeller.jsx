@@ -3,11 +3,13 @@ import { ShopContext } from '../context/ShopContext';
 import Tittle from './Tittle';
 import ProductItem from './ProductItem';
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
 
 
 const BestSeller = () => {
     const { products } = useContext(ShopContext);
     const [bestSeller, setBestSeller] = useState([]);
+     const navigate = useNavigate();
 
     useEffect(() => {
         const bestProduct = products.filter((item) => item.bestseller);
@@ -43,6 +45,7 @@ const BestSeller = () => {
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={() => navigate("/collection")}
                     className="cursor-pointer px-8 py-3 rounded-full bg-[#414141] text-white text-sm tracking-widest hover:bg-black transition-colors shadow-lg"
                 >
                     VIEW MORE
